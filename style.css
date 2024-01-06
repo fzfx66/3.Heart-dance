@@ -1,0 +1,54 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+.heart{
+  margin:100px;
+  position:relative;
+  display:inline-block;
+  animation:heart 600ms infinite alternate;
+}
+@keyframes heart{
+  0%{
+    transform:scale(1.0)
+  }
+  100%{
+    transform:scale(1.4)
+  }
+}
+
+.heart > .base{
+  width:80px;
+  height:80px;
+  transform:rotate(45deg);
+  background-color:red;
+}
+.heart > .cycle{
+  width:80px;
+  height:80px;
+  position:absolute;
+  border-radius:50%;
+  background-color:red;
+} 
+.heart > .left{
+  bottom:100%;
+  right:100%;
+  transform:translate(62%,62%); 
+}
+.heart > .right{
+  bottom:100%;
+  left:100%;
+  transform:translate(-62%,62%); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
