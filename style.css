@@ -3,6 +3,7 @@
 .view{
   height:100vh;
   position:relative;
+  margin-right:80px;
 }
 .heart{
   position:absolute;
