@@ -1,8 +1,15 @@
 *{margin:0;padding:0;box-sizing:border-box;}
-.heart{
-  margin:100px;
+
+.view{
+  height:100vh;
   position:relative;
+}
+.heart{
+  position:absolute;
   display:inline-block;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
   animation:heart 600ms infinite alternate;
 }
 @keyframes heart{
